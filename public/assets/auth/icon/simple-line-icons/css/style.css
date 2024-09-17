@@ -1,0 +1,57 @@
+
+    .main-div-at-view {
+       background-color: white;
+
+    }
+    @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+        .nav-at-view {
+            padding-top: 70px;
+        }
+    }
+    @media (max-width: 767px) {
+        .nav-item {
+            display: block !important;
+        }
+    }
+    .active-button {
+        background-color: blue !important;
+        color: white;
+    }
+
+.main-con-in-view{
+padding-top: 30px;
+height:100vh;
+}
+.completed-task{
+    height: 100vh;
+    padding-top: 40px;
+}
+@media (max-width: 767px) {
+    .completed-task {
+        padding-top: 55px;
+    }
+}
+.completed-task-pag{
+    height: 100vh;
+padding-top: 50px;
+}
+@media (max-width: 767px) {
+    .completed-task-pag {
+        padding-top: 55px;
+    }
+}
+.user-list{
+    background-color: white;
+    height: 100vh;
+}
+.main-users{
+    background-color: white;
+}
+.user-par{
+    font-size: 20px;
+}
+.user-list button {
+    overflow: hidden;
+}
+
+
