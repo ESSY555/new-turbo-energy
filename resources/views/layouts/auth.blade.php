@@ -283,11 +283,11 @@
                 </li>
                 <li class="treeview"><a class="waves-effect waves-dark" href="#!"><i class="icon-docs"></i><span>department</span><i class="icon-arrow-down"></i></a>
                     <ul class="treeview-menu">
-                     <li class="treeview"><a href="{{ url('department') }}"><i class="icon-arrow-right"></i><span>Add department</span><i class="icon-arrow-down"></i></a>
-                        </li>
+                    <li class="treeview"><a href="{{ url('view/department') }}"><i class="icon-arrow-right"></i><span>Add department</span><i class="icon-arrow-down"></i></a>
+                    </li>
                         </ul>
                     <ul class="treeview-menu">
-                        <li class="treeview"><a href="{{ url('view-department') }}"><i class="icon-arrow-right"></i><span>View department</span><i class="icon-arrow-down"></i></a>
+                        <li class="treeview"><a href="{{ url('view/department') }}"><i class="icon-arrow-right"></i><span>View department</span><i class="icon-arrow-down"></i></a>
                         </li>
                         </ul>
                 </li>
@@ -299,6 +299,10 @@
                         </ul>
                     <ul class="treeview-menu">
                         <li class="treeview"><a href="{{ url('view-task') }}"><i class="icon-arrow-right"></i><span>View Task</span><i class="icon-arrow-down"></i></a>
+                        </li>
+                        <li class="treeview"><a href="{{ url('pending-task') }}"><i class="icon-arrow-right"></i><span>pending Task</span><i class="icon-arrow-down"></i></a>
+                        </li>
+                        <li class="treeview"><a href="{{ url('all-task-completed') }}"><i class="icon-arrow-right"></i><span>completed Task</span><i class="icon-arrow-down"></i></a>
                         </li>
                         </ul>
                 </li>

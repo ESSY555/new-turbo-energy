@@ -2,10 +2,6 @@
 
 @section('content')
 
-@extends('layouts.auth')
-
-@section('content')
-
 <div class="" style="background-color: white; height:100vh; margin-top:20px">
     <form action="{{ route('funding_requests.store') }}" method="POST" class="col-md-8 mx-auto mt-5">
         @csrf
@@ -46,6 +42,3 @@
 
 @endsection
 
-
-
-@endsection

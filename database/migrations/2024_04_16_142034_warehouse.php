@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('warehouses', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('warehouse_id')->nullable()->change(); 
             $table->string('name');
             $table->string('code');
             $table->string('address');

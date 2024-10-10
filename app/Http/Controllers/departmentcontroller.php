@@ -9,7 +9,7 @@ class departmentcontroller extends Controller
 {
     public function deleteDepartment($id){
         department::where('id', '=', $id) ->delete();
-        dd($id);
+        // dd($id);
         return redirect()->back()->with('success', 'Department deleted successfully');
     }
     public function department(){

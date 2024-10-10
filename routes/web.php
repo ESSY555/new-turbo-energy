@@ -67,8 +67,8 @@ Route::post('/update-warehouse', [WarehouseController::class, 'updatewarehouse']
 Route::get('/add-items', [itemsController::class, 'index']);
 Route::get('/view-items', [itemsController::class, 'viewitems']);
 Route::get('/view-items-in-warehouse/{id}', [itemsController::class, 'itemsInWarehouse']);
-Route::get('/view/department', [departmentcontroller::class, 'department']);
-Route::get('/view-department', [itemsController::class, 'viewDepartments']);
+Route::get('/view/department', [departmentcontroller::class, 'department'])->name('department');
+Route::get('/view-dep', [itemsController::class, 'viewDepartments']);
 Route::post('/save-items', [itemsController::class, 'saveitems']);
 Route::post('/insert-department', [departmentcontroller::class, 'insert']);
 Route::get('/view-department', [itemsController::class, 'viewDepartments']);
